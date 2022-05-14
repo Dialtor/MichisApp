@@ -19,27 +19,28 @@
         <section id="randomMichis" class="section-container">
             <article class="article-reload">
                 <h2>Michis aleatorios</h2>
-            <button onclick="reload()">Recargar</button>
+                <button onclick="loadRandomMichis()">Recargar</button>
+                <span id="error" style="color:brown"></span>
             </article>
     
             <article class="article-img">
                 <img id="img1" width="150" alt="Foto gatito aleatorio">
                 <div>
-                    <button><box-icon type='solid' color="white" name='heart'></box-icon></button>
+                    <button id="btnRandom1"><box-icon type='solid' color="white" name='heart'></box-icon></button>
                 </div>
             </article>
     
             <article class="article-img">
                 <img id="img2" width="150" alt="Foto gatito aleatorio">
                 <div>
-                    <button><box-icon type='solid' color="white" name='heart'></box-icon></button>
+                    <button id="btnRandom2"><box-icon type='solid' color="white" name='heart'></box-icon></button>
                 </div>
             </article>
     
             <article class="article-img">
                 <img id="img3" width="150" alt="Foto gatito aleatorio">
                 <div>
-                    <button><box-icon type='solid' color="white" name='heart'></box-icon></button>
+                    <button id="btnRandom3"><box-icon type='solid' color="white" name='heart'></box-icon></button>
                 </div>
             </article>
 
@@ -49,14 +50,15 @@
             
             <article class="article-reload">
                 <h2>Michis favoritos</h2>
+                <span id="error"></span>
             </article>
     
-            <article class="article-img">
+            <!-- <article class="article-img">
                 <img id="img1" width="150" alt="Foto gatito aleatorio">
                 <div>
-                    <button><box-icon type='solid' color="white" name='heart'></box-icon></button>
+                    <button><box-icon type='solid' color="white" name='trash-alt'></box-icon></button>
                 </div>
-            </article>
+            </article> -->
         </section>
     </main>
 
