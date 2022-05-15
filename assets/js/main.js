@@ -134,6 +134,7 @@ async function uploadMichiPhoto() {
   })
 
   const data = await res.json();
+  console.log(data)
   if (res.status != 200){
     spanError.innerHTML = "Error:" + data.message;
   }else {
